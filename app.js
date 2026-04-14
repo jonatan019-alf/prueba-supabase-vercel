@@ -1,7 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 // 1. Configuración (Copia estos datos de Supabase > Settings > API)
-const supabaseUrl = 'https://prueba-supabase-vercel.vercel.app/'
+const supabaseUrl = 'https://elmqmqxjhinzwiatvxwk.supabase.co'
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsbXFtcXhqaGluendpYXR2eHdrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYwNDA1NTUsImV4cCI6MjA5MTYxNjU1NX0.6KySiOMV1bIDn2z_gArUYCXJJMf7BEzcot2T14UrlIs'
 const supabase = createClient(supabaseUrl, supabaseKey)
 
